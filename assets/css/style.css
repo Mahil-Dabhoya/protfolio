@@ -1,0 +1,607 @@
+.Caveat{
+    font-family: Caveat;
+    font-weight: 700;
+}
+
+.Jost{
+    font-family: Jost;
+    font-weight: 700;
+}
+
+i{
+    color: black;
+    font-size: 22px;
+    
+}
+
+
+
+
+.bg{
+    background-color:#f1ece5;
+}
+
+.banner{
+    padding-top: 100px;
+}
+
+
+.pd{
+    padding:15px 40px;
+}
+
+.cv{
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-size: 13px;
+    font-weight: 700;
+    outline: none!important;
+    cursor: pointer;
+    box-shadow: 5px 5px rgba(0,0,0,.2);
+    margin-top: 40px;
+}
+
+.heading{
+    font-weight: 900;
+    font-size:70px;
+    
+}
+
+.skills{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.primary-color{
+    color: #29a587;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+
+
+
+body {
+    background: #f1ece5;
+
+}
+
+h1 {
+    color: black;
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.skills-bar-container {
+    position: relative;
+    width: 40%;
+    min-width: 350px;
+    margin: 5% auto;
+    list-style: none;
+}
+
+.skills-bar-container li {
+    background: #666666;
+    position: relative;
+    width: 100%;
+    height: 3px;
+    margin-bottom: 35px;
+    margin-top: 8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.skills-bar-container label {
+    color: black;
+    position: relative;
+    margin-left: 0px;
+    font-size: 21px;
+    font-weight: 700;
+    width: 100%;
+}
+.skills-bar-container span{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #29a587;
+}
+.skills-bar-container p{
+    font-size: 16px;
+    font-family: Jost;
+    padding-top: 20px;
+}
+.progressbar {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+#progress-htmlcss {
+    -webkit-animation-name: progress-htmlcss;
+    animation-name: progress-htmlcss;
+    -webkit-animation-delay: .7s;
+    animation-delay: .7s;
+}
+
+#progress-jsjq {
+    -webkit-animation-name: progress-jsjq;
+    animation-name: progress-jsjq;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+
+#progress-php {
+    -webkit-animation-name: progress-php;
+    animation-name: progress-php;
+    -webkit-animation-delay: 2.1s;
+    animation-delay: 2.1s;
+}
+
+#progress-java {
+    -webkit-animation-name: progress-java;
+    animation-name: progress-java;
+    -webkit-animation-delay: .7s;
+    animation-delay: .7s;
+}
+
+#progress-csharp {
+    -webkit-animation-name: progress-csharp;
+    animation-name: progress-csharp;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+
+#progress-sql {
+    -webkit-animation-name: progress-sql;
+    animation-name: progress-sql;
+    -webkit-animation-delay: 2.1s;
+    animation-delay: 2.1s;
+}
+
+.progressblue {
+    background-color:#29a587;
+}
+
+@-webkit-keyframes progress-htmlcss {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@-webkit-keyframes progress-jsjq {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
+@-webkit-keyframes progress-php {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 25%;
+    }
+}
+
+@-webkit-keyframes progress-java {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 75%;
+    }
+}
+
+@-webkit-keyframes progress-csharp {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
+@-webkit-keyframes progress-sql {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+@-moz-keyframes progress-htmlcss {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@-moz-keyframes progress-jsjq {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
+@-moz-keyframes progress-php {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 25%;
+    }
+}
+
+@-moz-keyframes progress-java {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 75%;
+    }
+}
+
+@-moz-keyframes progress-csharp {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
+@-moz-keyframes progress-sql {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes progress-htmlcss {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes progress-jsjq {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes progress-php {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 25%;
+    }
+}
+
+@keyframes progress-java {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes progress-csharp {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes progress-sql {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 50%;
+    }
+}
+.p-btn{
+    font-size: 16px;
+    font-family: Jost;
+    font-weight: 700;
+    
+    
+}
+
+.p{
+    margin: 60px 0;
+}
+
+
+.card{
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.add{
+    box-shadow: 5px 5px rgba(0,0,0,.2);
+}
+
+
+
+.card-title{
+    margin-top: 20px;
+}
+
+.card-text{
+    margin-bottom: 10px;
+}
+
+
+
+.responsive-map{
+    filter: grayscale(1.2); 
+   padding-bottom: 60px;
+}
+    
+.icons i:hover{
+    color: #29a587;
+}
+
+.dowlond-cv a button:hover{
+    background-color: #29a587;
+    color: #fff;
+}
+
+
+
+.card{
+    position: relative;
+   
+    overflow: hidden;
+}
+
+.card::after{
+    content: '';
+    position: absolute;
+    background-image: url('../img/pat-2.png');
+    bottom: 1px;
+    right: -20px;
+    width: 30%;
+    background-size: cover;
+    height: 30%;
+    z-index: 1;
+}
+
+.card-img{
+    position: relative;
+       overflow: hidden;
+}
+
+.card-img::after{
+    content: '';
+    position: absolute;
+    background-image: url('../img/pat-2.png');
+    bottom: -24px;
+    right: -10px;
+    width: 30%;
+    background-size: cover;
+    height: 30%;
+    z-index: 1;
+}
+
+.card-img1{
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.card-img1::after{
+    content: '';
+    position: absolute;
+    background-image: url('../img/pat-1.png');
+    bottom: -100px;
+    right: -10px;
+    width: 30%;
+    background-size: cover;
+    height: 30%;
+    z-index: 1;
+}
+
+
+
+.m{
+    margin-top: 30px;
+}
+.contect{
+    position: relative;
+    z-index: -1;
+    overflow: hidden; 
+    margin-top: 50px;
+}
+
+.contect:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    width:60px;
+    height: 2px;
+    background-color: black;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+.page-footer {
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    z-index: 1;
+  }
+  
+  .page-footer a {
+    display: flex;
+    margin-left: 4px;
+  }
+
+
+.p-btn button:hover{
+    color: #29a587;
+}
+
+.send a button:hover{
+    background-color: #29a587;
+    color: #fff;
+}
+
+.send a button{
+    box-shadow: 5px 5px rgba(0,0,0,.2);
+}
+
+
+
+.form{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-bottom: 80px; 
+    
+}
+
+.form:after{
+    content: '';
+    position: absolute;
+    background-image: url('../img/pat-1.png');
+    bottom: -5px;
+    left: 0px;
+    width: 240px;
+    background-size: cover;
+    height: 240px;
+    z-index: -1;
+}
+
+
+.accordion {
+    
+    font-family: "Sora", sans-serif;
+    max-width: 991px;
+    min-width: 320px;
+    margin: 50px auto;
+    padding: 0 50px;
+}
+.accordion h1 {
+    font-size: 32px;
+    text-align: center;
+}
+.accordion-item {
+    margin-top: 16px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 6px;
+    background:#f1ece5;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 5px 0px;
+}
+.accordion-item .accordion-item-title {
+    position: relative;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    font-size: 21px;
+    cursor: pointer;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 14px 20px;
+    box-sizing: border-box;
+    align-items: center;
+    font-weight: 700;
+}
+.accordion-item .accordion-item-desc {
+    display: none;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #444;
+    border-top: 1px dashed #ddd;
+    padding: 10px 20px 20px;
+    box-sizing: border-box;
+}
+.accordion-item input[type="checkbox"] {
+    position: absolute;
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
+.accordion-item input[type="checkbox"]:checked ~ .accordion-item-desc {
+    display: block;
+}
+.accordion-item
+    input[type="checkbox"]:checked
+    ~ .accordion-item-title
+    .icon:after {
+    content: "-";
+    font-size: 20px;
+}
+.accordion-item input[type="checkbox"] ~ .accordion-item-title .icon:after {
+    content: "+";
+    font-size: 20px;
+}
+.accordion-item:first-child {
+    margin-top: 0;
+}
+.accordion-item .icon {
+    margin-left: 14px;
+}
+
+@media screen and (max-width: 767px) {
+    .accordion {
+        padding: 0 16px;
+    }
+    .accordion h1 {
+        font-size: 22px;
+    }
+}
+
+
+

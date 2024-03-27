@@ -1,0 +1,828 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+    padding:0;
+  }
+  :root{
+      --primary-color: #333333;
+      --secndery-color:#ff2800;
+      --black-color:#020710;
+      --white-color:#fff;
+      --text-black-50:#262626;
+      --fs-13:13px;
+      --fs-14:14px;
+      --fs-15:15px;
+      --fs-16:16px;
+      --fs-18:18px;
+      --fs-20:20px;
+      --fs-22:22px;
+      --fs-28:28px;
+      --fs-32:32px;
+      --fs-43:43px;
+      --fs-46:46px;
+      --fs-48:48px;
+      --fs-54:54px;
+      --fs-76:76px;
+      --fw-100:100;
+      --fw-200:200;
+      --fw-300:300;
+      --fw-400:400;
+      --fw-500:500;
+      --fw-600:600;
+      --fw-700:700;
+      --fw-800:800;
+      --fw-900:900;
+      --padding-left:12px;
+      --padding-right:12px;
+      --Nunito:Nunito; /*  font */
+     
+  }
+
+
+
+.container{
+	max-width:1120px;
+	margin:0 auto;
+	padding-left:var(--padding-left);
+	padding-right:var(--padding-right);
+	
+}
+body{
+	background-color:#eeeeee15;
+	
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+	padding-left:-12px;
+	padding-right:-12px;
+}
+
+.d-flex{
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+
+.w-1{
+	width:8.33%;
+}
+.w-2{
+	width:16.66%;
+}
+.w-3{
+	width:25%;
+}
+.w-4{
+	width:33.33%;
+}
+.w-5{
+	width:41.66%;
+}
+.w-6{
+	width:50%;
+}
+.w-7{
+	width:58.33%;
+}
+.w-8{
+	width:66.66%;
+}
+.w-9{
+	width:75%;
+}
+.w-10{
+	width:83.33%;
+}
+.w-11{
+	width:91.66%;
+}
+.w-12{
+	width:100%;
+}
+.w-1 .w-2 .w-3 .w-4 .w-5 .w-6 .w-7 .w-8 .w-9 .w-10 .w-11 .w-12{
+	padding-left:var(--padding-left);
+	padding-right:var(--padding-right);
+}
+ol{
+	list-style:none;
+}
+.justify-end{
+	justify-content:flex-end;
+}
+.justify-center{
+	justify-content:center;
+}
+.align-center{
+	align-items:center;
+}
+header{
+
+	width:100%;
+  height: 100px;
+	position:absolute;
+  background-color: #fff;
+  padding-left: 50px;
+  
+
+}
+
+header .logo a img{
+	width:120px;
+  
+}
+header .menu ul{
+  list-style: none;
+}
+header .menu ul li a{
+  text-decoration: none;
+}
+
+header .menu ul li a{
+	padding:10px 17px;
+}
+
+header .menu ul li a{
+	font-size:var(--fs-16);
+  font-family: var(--Nunito);
+  font-weight: 700;
+  color: #333333;
+}
+header .menu ul li:last-child a{
+   background: transparent;
+    border-radius:5px;
+    padding:10px 30px;	
+    
+    background-color: #ff2800;
+    color: #fff;
+
+}
+header .menu ul li a:hover{
+  color: #ff2800;
+}
+
+
+/* banner star */
+
+.banner{
+	background-size:cover;
+	background-image:url('../img/autobid-home2.jpg');
+	padding: 130px 50px;
+
+	
+	
+}
+.banner .banner-content{
+  margin-top:150px
+}
+.banner-content{
+	position:relative;
+}
+.banner .banner-content h2{
+	font-family:var(--Nunito);
+	font-size:30px;
+	font-weight:100;
+  letter-spacing: 1px;
+  color: var(--white-color);
+}
+.banner .banner-content p{
+ 
+  color:var(--white-color);
+  margin:10px 0;
+  font-size:53px;
+  font-family: var(--Nunito);
+  font-weight: 700;
+}
+.banner .banner-content span i{
+  font-size: 12px;
+  color:rgba(255, 255, 255, 0.496);
+ letter-spacing: 1px;
+
+}
+.banner .banner-content span i b{
+  font-size: 18px;
+  color: #fff;
+  margin-left: 8px;
+ 
+}
+.banner .banner-content ul li a button{
+  margin-top: 20px;;
+  padding: 7px 19px ;
+  border-radius: 5px;
+  background-color: #ff2800;
+  border: none;
+  color: #fff;
+  
+}
+.banner .banner-content ul li:last-child a {
+  background-color: #fff;
+  color: #020710;
+}
+.banner .banner-content ul li a button:hover{
+  color:black;
+  background-color: #fff;
+  transition:1s;
+ 
+}
+
+
+/* AMG :start */
+
+.amg{
+  position: relative;
+  background-image:url('../img/autobid-main_about-1.jpg');
+  background-size: cover;
+  width:100%;
+  z-index: 1;
+  margin-top: 60px;
+}
+.amg .AMG-content h3{
+text-align: left;
+color: #ff2800;
+font-weight: bold;
+letter-spacing: 1px;
+font-family: var(--Nunito);
+}
+.amg .AMG-content{
+  padding: 80px 0;
+  margin: 100px auto;
+}
+
+
+.amg .AMG-content span{
+  font-family: var(--Nunito);
+  line-height: 43px;
+  color: #242424;
+  font-size: 34px;
+  margin-top: 15px;
+  font-weight: 700;
+}
+.amg .AMG-content p{
+  color: #262626;
+  font-size: 15px;
+  font-family: var(--Nunito);
+  margin: 25px 0;
+}
+
+
+.amg .AMG-content ul li{
+  color: #262626;
+  font-size: 15px;
+  font-family: var(--Nunito);
+}
+
+
+.AMG-content::after {
+  content: '';
+  position: absolute;
+  top: 560px;
+  right:30;
+  z-index:-1;
+  box-sizing: border-box;
+  background-image: url('../img/autobid-signature.png');
+  background-repeat: no-repeat;
+  background-size: contain; 
+  width: 200px;
+  height: 128px;
+ 
+
+}
+/* AMG :end */
+
+/* works :start  */
+.work{
+  margin-top: 40px;
+}
+.work .work-content h3 {
+  font-size: 15px;
+  font-family: var(--Nunito);
+  color:#ff2800;
+  padding-left: 72px;
+  line-height: 40px;
+  font-weight: var(--fw-700);
+  letter-spacing: 2px;
+
+}
+
+.work .work-content span{
+  font-family: var(--Nunito);
+  color: #0a0a0a;
+  font-weight: 800;
+  font-size: 34px;
+}
+/* works :end */
+
+/* arrows :start */
+.arrows{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+ .arrows1{
+  width: 600px;
+  height: 400px;
+
+
+  padding-top:200px;
+}
+.arrows1 span{
+  font-size: 24px;
+  font-family: var(--Nunito);
+  color: #242424;
+  font-weight: 800;
+  padding-right:80px;
+  
+}
+.arrows1 p{
+  font-family: Nunito;
+  line-height: 24px;
+  font-weight: 400;
+  color: #262626;
+  font-size: 15px;
+  padding-right: 50px;
+  padding-top: 12px;
+  
+}
+ .arrows2{
+  width: 600px;
+  height: 400px;
+  
+  padding-left: 20px;
+  padding-top:200px;
+
+  
+}
+
+.arrows2 span{
+  font-size: 24px;
+  font-family: var(--Nunito);
+  color: #242424;
+  margin-bottom: 10px;
+  font-weight: 800;
+  padding-left: 10px;
+  
+
+}
+.arrows2 p{
+  font-family: Nunito;
+  line-height: 24px;
+  font-weight: 400;
+  color: #262626;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-top: 12px;
+}
+
+ .arrows3{
+  width: 400px;
+  height: 400px;
+ 
+  padding-left: 20px;
+  padding-top:200px;
+ 
+}
+.arrows3 span{
+  font-size: 24px;
+  font-family: var(--Nunito);
+  color: #242424;
+  font-weight: 800;
+  padding-left: 80px;
+
+}
+.arrows3 p{
+  font-family: Nunito;
+  line-height: 24px;
+  font-weight: 400;
+  color: #262626;
+  font-size: 15px;
+  padding-left: 70px;
+  padding-top: 12px;
+}
+
+/* arrows :end */
+
+/* registration start */
+.members{
+  padding:40px;
+  margin-top: 20px;
+  background-color: #f2f2f2 !important;
+  border-bottom-width: 3px !important;
+  border-bottom-color: #dddddd !important;
+  border-bottom-style: dashed !important;
+
+}
+
+.members .k h2{
+  color: #242424;
+  font-family: var(--Nunito);
+  font-size: 50px;
+  margin-left: 20px;
+  font-weight:var(--fw-600);
+}
+.members .k span{
+  text-align: center;
+  font-weight: bold;
+  color: #ff2800;
+  font-family: var(--Nunito);
+}
+.members .m h2{
+  color: #242424;
+  font-family: var(--Nunito);
+  font-size: 50px;
+  margin-left: 20px;
+  font-weight:var(--fw-600);
+}
+.members .m span{
+  text-align: center;
+  font-weight: bold;
+  color: #ff2800;
+  font-family: var(--Nunito);
+  padding-left: 40px;
+}
+.members .i h2{
+  color: #242424;
+  font-family: var(--Nunito);
+  font-size: 50px;
+  margin-left: 20px;
+  font-weight:var(--fw-600);
+}
+.members .i span{
+  text-align: center;
+  font-weight: bold;
+  color: #ff2800;
+  font-family: var(--Nunito);
+}
+.members .s h2{
+  color: #242424;
+  font-family: var(--Nunito);
+  font-size: 50px;
+  margin-left: 20px;
+  font-weight:var(--fw-600);
+}
+.members .s span{
+  text-align: center;
+  font-weight: bold;
+  color: #ff2800;
+  font-family: var(--Nunito);
+  
+}
+
+/* registration end */
+
+
+/* new offers start */
+
+.new-offers{
+  position: relative;
+  background-image:url('../img/autobid-lots-bg.jpg');
+  background-size: cover;
+  padding: 100px 0;
+}
+.new-offers .new-content h3{
+  text-align: left;
+  color: #ff2800;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: var(--Nunito);
+  }
+  
+.new-offers .new-content span{
+  font-family: var(--Nunito);
+  line-height: 43px;
+  color: #242424;
+  font-size: 34px;
+  margin-top: 15px;
+  font-weight: 700;
+}
+.new-offers .new-content p{
+  color: #262626;
+  font-size: 15px;
+  font-family: var(--Nunito);
+  margin: 25px 0;
+}
+.new-offers .new-content ul li{
+  color: #262626;
+  font-size: 15px;
+  font-family: var(--Nunito);
+  line-height:1.42;
+  margin-bottom: 5px;
+}
+.new-offers .new-content a button{
+  margin-top: 20px;
+  padding:12px 25px;
+  border-radius: 5px;
+  background-color: #ff2800;
+  color: #fff;
+
+}
+.new-offers .new-content a button:hover{
+
+}
+/* new offers end */
+
+/* search start */
+.Search{
+  margin-top: 40px;
+}
+.Search .Search-content h3 {
+  font-size: 15px;
+  font-family: var(--Nunito);
+  color:#ff2800;
+  padding-left: 80px;
+  line-height: 40px;
+  font-weight: var(--fw-700);
+  letter-spacing: 2px;
+
+}
+
+.Search .Search-content span{
+  font-family: var(--Nunito);
+  color: #0a0a0a;
+  font-weight: 800;
+  font-size: 34px;
+}
+/* search end */
+
+/* cars start */
+.cars{
+  padding:10px 80px;
+  margin: 30px 0;
+  padding-bottom: 50px;
+}
+.suv {
+    margin: 20px 10px;
+    background-color:#fff;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    box-shadow:0 0 4px 4px #0a0a0a08;   
+}
+.suv a img{
+  margin-top:40px;
+  box-sizing: border-box; 
+  width:70%;
+  padding-bottom: 15px;
+  
+
+  
+}
+.suv a img:hover{
+  transform: translateX();
+  transition: 1s;
+
+}
+.suv h4{
+font-family: Nunito;
+line-height: 32px;
+color: #242424;
+font-size: 24px;
+font-weight:var(--fw-700);
+text-align: center;
+}
+
+.button a button{
+  padding: 14px 30px;
+  background-color: #ff2800;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  margin: 20px 0;
+}
+
+.button a button span{
+  font-family: var(--Nunito);
+  font-size: var(--fs-14);
+  font-weight: var(--fw-700);
+  word-spacing: 2px;
+}
+.button a button:hover{
+  color: black;
+  background-color: #fff;
+  border: 2px solid black;
+}
+/* cars end */
+
+/*  Customers start  */
+.customers{
+  position: relative;
+  background-image:url('../img/autobid-main_about.jpg');
+  background-size: cover;
+}
+.customers .customers-content{
+  padding-top: 100px;
+}
+.customers .customers-content h3{
+  text-align: left;
+  color: #ff2800;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: var(--Nunito);
+  }
+  
+.customers .customers-content span{
+  font-family: var(--Nunito);
+  /* line-height: 43px; */
+  color: #242424;
+  font-size: 34px;
+  margin-top: 15px;
+  font-weight: 700;
+}
+.customers .customers-content a button{
+  font-family: var(--Nunito);
+  font-size: var(--fs-14);
+  font-weight: var(--fw-700);
+  word-spacing: 2px;
+  padding: 12px 35px;
+  background-color:transparent;
+  color:black;
+  border-radius: 5px;
+  border:2px solid black;
+  margin: 20px 0;
+ 
+}
+.customers  a  button:hover{
+  color: #fff;
+  background-color: #ff2800;
+  border: none;
+}
+.customers .customers-box{
+  background-color:#fff;
+  border-radius: 10px;
+  width: 100%;
+  height: 60%;
+  padding: 10px 40px;
+  margin: 80px 40px; 
+  box-shadow:0 0 4px 4px #0a0a0a08;
+
+}
+
+.customers .customers-box p{
+  font-family:var(--Nunito);
+    line-height: 24px;
+    font-weight: 400;
+    color:#abb8c3;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+
+}
+.customers .customers-box h2{
+  font-size: 25px;
+  font-family:var(--Nunito);
+  text-align: center;
+  margin-top: 30px;
+}
+.customers .customers-box img{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 250px;
+  margin-bottom: 50px;
+}
+/*  Customers end   */
+
+
+
+
+
+
+.footer {
+  background-color: black;
+
+	
+}
+
+.footer .footer-content {
+	padding-top: 120px 	;
+}
+
+.footer .footer-content img {
+	width:50%;
+  
+	
+}
+
+.footer .footer-content p {
+	font-size:24px;
+
+	font-family: var(--Nunito);
+	font-weight: var(--fw-600);
+	color: #fff;
+	padding: 10px 0;
+  font-weight:var(--fw-900);
+	display: block;
+}
+
+.footer .footer-content a i {
+	font-size: var(--fs-16);
+	padding: 8px;
+	margin: 0 3px;
+	color:#fff;
+	border: 1px solid var(--secondary-color);
+	border-radius: 50%;
+	transition: var(--transition);
+}
+
+.footer .footer-content a {
+	display: inline-block;
+}
+
+.footer .footer-content a:hover i {
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+}
+
+.footer .footer-content span {
+	display: block;
+	padding-top: 5px;
+	font-size: var(--fs-14);
+	color:#fff;
+	font-weight: var(--fw-600);
+	font-family: var(--Nunito);
+}
+
+.footer .footer-re {
+	padding-top: 120px;
+
+}
+
+.footer .footer-re,.footer .footer-li,.footer .footer-Contact {
+	display: block;
+}
+
+.footer .footer-list ul li,.footer .footer-Contact ul li {
+	list-style: none;
+}
+
+.footer .footer-re h2 {
+	display: block;
+	color:#fff;
+	font-size:24px;
+	font-weight: var(--fw-700);
+	line-height: 24px;
+	font-family: var(--Nunito);
+	margin-bottom: 20px;
+}
+
+.footer .footer-li ul li a,.footer .footer-Contact ul li a {
+	display: inline-block;
+	font-size: var(--fs-16);
+	line-height: 14px;
+	color:#fff;
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: normal;
+    font-family: var(--Nunito);
+    line-height: 20px;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 0;
+    position: relative;
+    text-transform: none;
+  text-decoration: none;
+}
+
+.footer .footer-Contact ul li:nth-child(2) a,.footer .footer-Contact ul li:nth-child(3) a {
+	padding: 7px;
+}
+
+.footer .footer-re ul li:hover a {
+	color:#ffffff84;
+}
+
+.footer .footer-re .footer-Contact ul li p {
+	display: block;
+	font-size: var(--fs-14);
+	line-height: 25px;
+	color: #fff;
+	font-weight: var(--fw-500);
+	font-family: var(--main-font);
+	padding: 10px;
+}
+
+.policy {
+	text-align: center;
+	background-color: #011920;
+}
+
+.policy h5 {
+	padding: 20px;
+	font-size: var(--fs-14);
+	font-family: var(--main-font);
+	color:#fff;
+}
+
+.policy h5 span {
+	color: var(--primary-color);
+	font-size: var(--fs-16);
+}
+
+.policy h5 span:hover {
+	color: var(--secondary-color);
+}
+
+.footer .footer-re .footer-li a i{
+  color: gray;
+}
